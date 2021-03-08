@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.IO.Pipelines" Version="5.0.1" />
     <PackageReference Include="Unosquare.Raspberry.IO" Version="0.27.1" />
   </ItemGroup>
 

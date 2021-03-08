@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
     this.jmuxer = new JMuxer({
       node: this.el.nativeElement.querySelector("#player"),
       mode: "video",
-      fps: 30,
+      fps: 25,
       debug: true
     });
 
